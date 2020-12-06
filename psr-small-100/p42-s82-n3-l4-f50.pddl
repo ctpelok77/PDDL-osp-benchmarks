@@ -1,0 +1,33 @@
+(define (problem grounded-STRIPS-PSR-S82-N3-L4-F50)
+(:domain grounded-STRIPS-PSR)
+(:init
+(do-normal)
+(NOT-UPDATED-CB1)
+(NOT-UPDATED-CB2)
+(NOT-UPDATED-CB3)
+(NOT-CLOSED-SD1)
+(NOT-CLOSED-SD3)
+(NOT-CLOSED-SD6)
+(NOT-CLOSED-SD8)
+(CLOSED-SD11)
+(CLOSED-SD10)
+(CLOSED-SD9)
+(CLOSED-SD7)
+(CLOSED-SD5)
+(CLOSED-SD4)
+(CLOSED-SD2)
+(CLOSED-CB3)
+(CLOSED-CB2)
+(CLOSED-CB1)
+)
+ (:utility 
+    (= (do-normal) 10) 
+    (= (GOAL-REACHED) 10) 
+    (= (closed-sd3) 3) 
+    (= (not-closed-sd10) 2) 
+ )
+ (:bound 30)
+ )
+ 
+
+
