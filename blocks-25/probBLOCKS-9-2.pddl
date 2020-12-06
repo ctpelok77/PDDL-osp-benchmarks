@@ -1,0 +1,25 @@
+(define (problem BLOCKS-9-2)
+(:domain BLOCKS)
+(:objects B I C E D A G F H )
+(:INIT (CLEAR H) (CLEAR F) (ONTABLE G) (ONTABLE F) (ON H A) (ON A D) (ON D E)
+ (ON E C) (ON C I) (ON I B) (ON B G) (HANDEMPTY))
+ (:utility 
+    (= (ON F G) 10) 
+    (= (ON G H) 10) 
+    (= (ON H D) 10) 
+    (= (ON D I) 10) 
+    (= (ON I E) 10) 
+    (= (ON E B) 10) 
+    (= (ON B C) 10) 
+    (= (ON C A) 10) 
+    (= (on b h) 5) 
+    (= (holding c) 4) 
+    (= (on h g) 3) 
+    (= (on d b) 1) 
+    (= (on e b) 2) 
+ )
+ (:bound 6)
+ )
+ 
+
+
